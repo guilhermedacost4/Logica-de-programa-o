@@ -1,0 +1,39 @@
+mkdir projetos
+mkdir projetos/projeto1
+touch projetos/projeto1/arquivo1.txt
+echo "Conteúdo inicial do arquivo" > arquivo2.txt
+cat arquivo2.txt
+mv arquivo2.txt documento.txt
+mkdir projetos/backup
+cp documento.txt projetos/backup/
+mv documento.txt projetos/projeto1/
+rm projetos/projeto1/documento.txt
+touch projetos/projeto1/file1.txt projetos/projeto1/file2.txt projetos/projeto1/file3.txt
+ls projetos/projeto1
+ls -l projetos/projeto1
+ls -a projetos/projeto1
+date > projetos/projeto1/relatorio.txt
+cat projetos/projeto1/relatorio.txt
+echo "Texto adicional" >> projetos/projeto1/relatorio.txt
+mkdir projetos/projeto1/images
+mv projetos/projeto1/file1.txt projetos/projeto1/file2.txt projetos/projeto1/images/
+ls projetos/projeto1/images
+rm -r projetos/projeto1/images
+echo "Texto de exemplo" > projetos/projeto1/texto.txt
+mkdir projetos/temp
+mv projetos/projeto1/* projetos/temp/
+rm projetos/temp/*
+touch backup.txt
+mv backup.txt projetos/backup/
+ls projetos/backup
+mv projetos/backup projetos/backup_old
+rm -r projetos/backup_old
+
+
+
+
+
+
+
+
+
